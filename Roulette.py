@@ -11,11 +11,61 @@ keep_running = "yes"
 while keep_running == "yes":
 
     # Ball Lands On...
+    '''
     x = random.randint(0, 1)
     if x == 0:
         ball = "red"
     elif x == 1:
         ball = "black"
+    '''
+    # Zayaan, we will probably need to make a list
+    # which will
+    x = random.randint(0, 37)
+    pocket = [
+        "0",
+        "00",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+    ]
+    # TODO: Match Numbers & Colors in List Below
+    color = [
+        "green",
+        "green",
+    ]
 
     # Player Bets On...
     player_selection = input("Red or black?: ")
